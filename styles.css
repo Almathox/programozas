@@ -1,11 +1,17 @@
 body {
   background-color: rgb(111, 111, 111);
   background-size: cover;
+  background-image: url(Back.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 p {
   margin: 5px;
-  text-indent: 20px;
+  text-indent: 0px;
+  text-align: justify;
+  line-height: 120%;
 }
 
 #content {
@@ -13,10 +19,14 @@ p {
   margin-top: 40px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
+  width: 80%;
+  padding: 30px;
+  margin: auto;
 }
 
 a {
   color: black;
+  text-decoration: none;
 }
 
 #picture {
@@ -37,4 +47,35 @@ li {
 table {
   width: 80%;
   margin: auto;
+}
+.szavak
+{
+  color: #087AC8;
+  font-weight: bold;
+}
+#szamok
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+}
+th
+{
+  border: 1px solid gray;
+  background-color: #087AC8;
+  color: white;
+  text-align: center;
+}
+td
+{
+  border: 1px solid gray;
+  padding: 5px;
+  text-align: center;
+}
+
+a:hover
+{
+  color: red;
+  text-decoration: none;
 }
